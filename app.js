@@ -15,8 +15,8 @@ app.use( express.static('public') )
 app.get('/', (req, res) => {
     
     res.render('home', {
-        nombre: 'David Flores',
-        titulo: 'Mi pagina de Inicio'
+        nombre: 'David Flores Castillo',
+        titulo: 'Home'
     })
 
 })
@@ -24,16 +24,16 @@ app.get('/', (req, res) => {
 app.get('/generic', (req, res) => {
     
     res.render('generic', {
-        nombre: 'David Flores',
-        titulo: 'Mi pagina de Inicio'
+        nombre: 'David Flores Castillo',
+        titulo: 'Pagina Genérica'
     })
 
 })
 app.get('/elements', (req, res) => {
     
     res.render('elements', {
-        nombre: 'David Flores',
-        titulo: 'Mi pagina de Inicio'
+        nombre: 'David Flores Castillo',
+        titulo: 'Elementos'
     })
 
 })
